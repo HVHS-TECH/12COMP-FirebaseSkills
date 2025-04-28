@@ -3,8 +3,8 @@
 // Main entry for index.html
 // Written by <Your Name Here>, Term 2 202?
 /**************************************************************/
-const FB_COL_C = 'white';	//These two const are part of the coloured 	
-const FB_COL_B = '#CD7F32';	//console.log for functions scheme
+const COL_C = 'white';	    // These two const are part of the coloured 	
+const COL_B = '#CD7F32';	//  console.log for functions scheme
 console.log('%c main.mjs', 
     'color: blue; background-color: white;');
 

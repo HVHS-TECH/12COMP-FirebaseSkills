@@ -6,8 +6,8 @@
 // All variables & function begin with fb_  all const with FB_
 // Diagnostic code lines have a comment appended to them //DIAG
 /**************************************************************/
-const FB_COL_C = 'white';
-const FB_COL_B = '#CD7F32';
+const COL_C = 'white';	    // These two const are part of the coloured 	
+const COL_B = '#CD7F32';	//  console.log for functions scheme
 console.log('%c fb_io.mjs',
             'color: blue; background-color: white;');
 
@@ -30,8 +30,9 @@ export {
 
 function fb_initialise() {
     console.log('%c fb_initialise(): ', 
-                'color: ' + FB_COL_C + '; background-color: ' + FB_COL_B + ';');
+                'color: ' + COL_C + '; background-color: ' + COL_B + ';');
 }
+
 function fb_login() {}
 function fb_authChanged() {}
 function fb_logout() {}
