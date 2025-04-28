@@ -22,25 +22,12 @@ console.log('%c fb_io.mjs',
 // List all the functions called by code or html outside of this module
 /**************************************************************/
 export { 
-    fb_initialise, fb_login, fb_authChanged, fb_logout, 
-    fb_writeRec, fb_readRec, fb_readAll, 
-    fb_updateRec, fb_readSorted,
-    
-};
+    fb_initialise };
 
 function fb_initialise() {
     console.log('%c fb_initialise(): ', 
                 'color: ' + COL_C + '; background-color: ' + COL_B + ';');
 }
-
-function fb_login() {}
-function fb_authChanged() {}
-function fb_logout() {}
-function fb_writeRec() {}
-function fb_readRec() {}
-function fb_readAll() {}
-function fb_updateRec() {}
-function fb_readSorted() {}
 
 /**************************************************************/
 // END OF CODE
