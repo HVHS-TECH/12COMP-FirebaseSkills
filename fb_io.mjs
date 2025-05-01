@@ -25,8 +25,8 @@ export {
     fb_initialise };
 
 function fb_initialise() {
-    console.log('%c fb_initialise(): ', 
-                'color: ' + COL_C + '; background-color: ' + COL_B + ';');
+    console.log('%c fb_initialise(): ', 'color: ' + COL_C + '; background-color: ' + COL_B + ';');
+    document.getElementById("p_fbInitialise").innerHTML= "Button Clicked";
 }
 
 /**************************************************************/
